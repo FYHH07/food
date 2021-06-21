@@ -1,0 +1,245 @@
+/*------------------------------------------>
+Extra small devices (portrait phones, less than 576px)
+<-------------------------------------------*/
+@media (max-width: 575px) {
+    .full_wrapper{
+        width: 100%;
+    }
+    .wrapper{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .banner{
+        margin-top:20px;
+    }
+    .banner_left{
+        width:100%;
+    }
+    .banner_left h2{
+        font-size:170%;
+        font-weight: 600;
+        line-height: 30px;
+        text-transform: capitalize;
+    }
+    .banner_left p{
+        font-size:100%;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .banner_left a{
+        border:none;
+    }
+    .banner_left a i{
+        margin-left: 10px;
+    }
+    .banner_left a:hover{
+        border:none;
+        color: #fff;
+        background:#ff9f0d;
+    }
+    .banner_left button{
+        border:1px solid #000;
+        color: #000;
+        cursor: pointer;
+    }
+    .banner_right{
+        float: right;
+    }
+    .banner_right img{
+        margin-top: 25px;
+        width: 110%;
+        margin-left: -5%;
+    }
+}
+
+
+
+
+/*------------------------------------------>
+Small devices (landscape phones, 576px and up)
+<-------------------------------------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .full_wrapper{
+        width: 100%;
+    }
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .banner{
+        margin-top:20px;
+    }
+    .banner_left{
+        width:50%;
+        float: left;
+    }
+    .banner_left h2{
+        font-size:190%;
+        font-weight: 600;
+        line-height: 30px;
+        text-transform: capitalize;
+    }
+    .banner_left p{
+        font-size:100%;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .banner_left a{
+        border:none;
+    }
+    .banner_left a i{
+        margin-left: 10px;
+    }
+    .banner_left a:hover{
+        border:none;
+        color: #fff;
+        background:#ff9f0d;
+    }
+    .banner_left button{
+        border:1px solid #000;
+        color: #000;
+        cursor: pointer;
+    }
+    .banner_right{
+        float: right;
+        width: 50%;
+    }
+    .banner_right img{
+        margin-top: 25px;
+        width: 113%;
+        margin-top: -40px;
+        margin-right: -69px;
+    }
+}
+
+
+
+
+
+/*------------------------------------------>
+Medium devices (tablets, 768px and up)
+<-------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .full_wrapper{
+        width: 100%;
+    }
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .banner{
+        margin-top:20px;
+    }
+    .banner_left{
+        width:50%;
+        float: left;
+    }
+    .banner_left h2{
+        font-size:200%;
+        font-weight: 600;
+        line-height: 35px;
+        text-transform: capitalize;
+    }
+    .banner_left p{
+        font-size:100%;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .banner_left a{
+        border:none;
+    }
+    .banner_left a i{
+        margin-left: 10px;
+    }
+    .banner_left a:hover{
+        border:none;
+        color: #fff;
+        background:#ff9f0d;
+    }
+    .banner_left button{
+        border:1px solid #000;
+        color: #000;
+        cursor: pointer;
+    }
+    .banner_right{
+        float: right;
+        width: 50%;
+    }
+    .banner_right img{
+        margin-top: 25px;
+        width: 113%;
+        margin-top: -40px;
+        margin-right: -69px;
+    }
+}
+
+
+
+
+
+/*------------------------------------------>
+Large devices (desktops, 992px and up)
+<-------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .full_wrapper{
+        width: 100%;
+    }
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .banner{
+        margin-top:30px;
+    }
+    .banner_left{
+        width:50%;
+        float: left;
+    }
+    .banner_left h2{
+        font-size:200%;
+        font-weight: 600;
+        line-height: 35px;
+        text-transform: capitalize;
+    }
+    .banner_left p{
+        font-size:100%;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .banner_left a{
+        border:none;
+    }
+    .banner_left a i{
+        margin-left: 10px;
+    }
+    .banner_left a:hover{
+        border:none;
+        color: #fff;
+        background:#ff9f0d;
+    }
+    .banner_left button{
+        border:1px solid #fff;
+        color: #fff;
+        cursor:default;
+    }
+    .banner_right{
+        float: right;
+        width: 50%;
+    }
+    .banner_right img{
+        margin-top: 25px;
+        width: 113%;
+        margin-top: -40px;
+        margin-right: -69px;
+    }
+}
+
+
+
+
+/*------------------------------------------>
+Extra large devices (large desktops, 1200px and up)
+<-------------------------------------------*/
+@media (min-width: 1200px) {
+    
+}
